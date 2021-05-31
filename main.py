@@ -5,7 +5,7 @@ import navigate
 import time
 import serial
 
-video = cv2.VideoCapture(0)
+video = cv2.VideoCapture('resources/pathfinal.mp4')
 colour,stop='',False,
 Ser = serial.Serial("/dev/ttyACM0", baudrate=9600)
 Ser.flush()
